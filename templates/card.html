@@ -1,0 +1,14 @@
+<script>
+    document.getElementById('{%ID1%}').style.display = none;
+</script>
+<div class="card col-3 m-5" style="width: 300px;">
+    <img class="card-img-top" src="{%IMAGE%}" alt="Card image">
+    <div class="card-body col-12">
+        <h4 class="card-title">{%PRODUCTNAME%}</h4>
+        <p class="card-text">Type : {%TYPE%}</p>
+        <p class="card-text">Price : {%PRICE%}</p>
+        <p class="card-text">Quantity : {%QUANTITY%}</p>
+        <p class="card-text" id='{%ID2%}'>Discount : {%DISCOUNT%}</p>
+        <a href="/product?id={%ID%}" class="btn btn-primary">More Details</a>
+    </div>
+</div>
